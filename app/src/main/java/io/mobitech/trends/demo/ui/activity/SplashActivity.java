@@ -1,4 +1,4 @@
-package io.mobitech.trends.demo.activity;
+package io.mobitech.trends.demo.ui.activity;
 
 import android.content.Intent;
 import android.os.AsyncTask;
