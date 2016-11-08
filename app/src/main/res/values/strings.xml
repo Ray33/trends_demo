@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Trends Demo</string>
+
+    <string name="ok">Yes</string>
+    <string name="no">Cancel</string>
+    <string name="confirmation">Confirmation</string>
+    <string name="dialog_delete_trends_keywords">Remove %s from hot search?</string>
 </resources>
