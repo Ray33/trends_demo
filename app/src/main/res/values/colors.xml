@@ -6,4 +6,7 @@
 
     <!-- Splash screen -->
     <color name="splash_screen_background">#e5e5e5</color>
+
+    <color name="settings_info_description">#636363</color>
+    <color name="settings_opt_off">#636363</color>
 </resources>

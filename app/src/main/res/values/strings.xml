@@ -4,5 +4,8 @@
     <string name="ok">Yes</string>
     <string name="no">Cancel</string>
     <string name="confirmation">Confirmation</string>
+    <string name="action_settings">Settings</string>
     <string name="dialog_delete_trends_keywords">Remove %s from hot search?</string>
+    <string name="settings_hot">Hot Search Personalization</string>
+    <string name="settings_hot_description">When off, instruct app not to use your user ID to build profiles or show you personalised hot searches</string>
 </resources>
