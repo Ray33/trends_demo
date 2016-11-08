@@ -30,10 +30,10 @@ public class MainActivity extends AppCompatActivity implements OnChangeFragmentL
     public void onFragmentChange(String fragmentTag, Object[] data) {
         FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
         if (fragmentTag.equals(HtmlKeywordsFragment.TAG)) {
-            ft.add(R.id.activity_main, HtmlKeywordsFragment.newInstance((String) data[0]), HtmlKeywordsFragment.TAG);
+            ft.replace(R.id.activity_main, HtmlKeywordsFragment.newInstance((String) data[0]), HtmlKeywordsFragment.TAG);
             ft.addToBackStack(HtmlKeywordsFragment.TAG);
         } else if (fragmentTag.equals(SettingsFragment.TAG)) {
-            ft.add(R.id.activity_main, SettingsFragment.newInstance(), SettingsFragment.TAG);
+            ft.replace(R.id.activity_main, SettingsFragment.newInstance(), SettingsFragment.TAG);
             ft.addToBackStack(SettingsFragment.TAG);
         }
         ft.commit();
